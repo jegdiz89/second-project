@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14998" started-at="2021-05-05T05:25:52Z" finished-at="2021-05-05T05:26:07Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14998" started-at="2021-05-05T05:25:52Z" finished-at="2021-05-05T05:26:07Z">
+      <class name="org.extend.ExtRpt">
+        <test-method status="PASS" signature="beforesuite()[pri:0, instance:org.extend.ExtRpt@490ab905]" name="beforesuite" is-config="true" duration-ms="5952" started-at="2021-05-05T05:25:46Z" finished-at="2021-05-05T05:25:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method status="PASS" signature="openBing()[pri:0, instance:org.extend.ExtRpt@490ab905]" name="openBing" duration-ms="6779" started-at="2021-05-05T05:25:52Z" finished-at="2021-05-05T05:25:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBing -->
+        <test-method status="PASS" signature="openWiki()[pri:0, instance:org.extend.ExtRpt@490ab905]" name="openWiki" duration-ms="5344" started-at="2021-05-05T05:25:59Z" finished-at="2021-05-05T05:26:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWiki -->
+        <test-method status="PASS" signature="opengoogle()[pri:0, instance:org.extend.ExtRpt@490ab905]" name="opengoogle" duration-ms="2627" started-at="2021-05-05T05:26:05Z" finished-at="2021-05-05T05:26:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opengoogle -->
+        <test-method status="PASS" signature="aftersuite()[pri:0, instance:org.extend.ExtRpt@490ab905]" name="aftersuite" is-config="true" duration-ms="1561" started-at="2021-05-05T05:26:07Z" finished-at="2021-05-05T05:26:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuite -->
+      </class> <!-- org.extend.ExtRpt -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

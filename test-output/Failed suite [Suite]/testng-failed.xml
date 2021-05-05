@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Suite]]">
+  <test thread-count="5" name="Test(failed)(failed)">
+    <parameter name="zipcode" value="2345678"/>
+    <parameter name="firstname" value="Jegadeesh"/>
+    <parameter name="nameoncard" value="Jegadeesh Chan"/>
+    <parameter name="month" value="7"/>
+    <parameter name="city" value="hilton"/>
+    <parameter name="year" value="2021"/>
+    <parameter name="destination" value="London"/>
+    <parameter name="adress" value="76/johny street"/>
+    <parameter name="departure" value="Paris"/>
+    <parameter name="state" value="DC"/>
+    <parameter name="cardtype" value="VISA"/>
+    <parameter name="ccnumber" value="123456789009876543"/>
+    <classes>
+      <class name="org.blaze.AirTicketwithParameter">
+        <methods>
+          <include name="tc2"/>
+        </methods>
+      </class> <!-- org.blaze.AirTicketwithParameter -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="departure" value="Paris"></parameter>
+  <parameter name="destination" value="London"></parameter>
+  <parameter name="firstname" value="Jegadeesh"></parameter>
+  <parameter name="address" value="76/johny street"></parameter>
+  <parameter name="city" value="hilton"></parameter>
+  <parameter name="state" value="DC"></parameter>
+  <parameter name="zipcode" value="2345678"></parameter>
+  <parameter name="cardtype" value="VISA"></parameter>
+  <parameter name="ccnumber" value="123456789009876543"></parameter>
+  <parameter name="month" value="7"></parameter>
+  <parameter name="year" value="2021"></parameter>
+  <parameter name="nameoncard" value="Jegadeesh Chan"></parameter>
+  
+    <classes>
+      <class name="org.blaze.AirTicketwithParameter"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
